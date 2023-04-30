@@ -37,4 +37,3 @@ compile_flags.txt
 *.exe
 *.out
 *.app
-build/**

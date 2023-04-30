@@ -7,6 +7,7 @@ LDFLAGS=-framework Metal -framework Foundation -framework Cocoa -framework CoreG
 
 VPATH=./metal-cpp
 
+
 %.o: %.cpp
 	$(CC) -c $(CFLAGS) $< -o $@
 
